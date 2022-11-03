@@ -21,6 +21,6 @@ public class Solution {
 
         System.out.println(nums);
         System.out.println(nums.size());
-
+        
     }
 }
