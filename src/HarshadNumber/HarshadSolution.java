@@ -1,8 +1,9 @@
 package HarshadNumber;
 
-public class Solution {
+public class HarshadSolution {
     public boolean solution(int x) {
 
+        int originX = x;
         //자릿수 합
         int sumOfDigit = 0;
         while(x > 0) {
@@ -11,10 +12,14 @@ public class Solution {
         }
         System.out.println(sumOfDigit);
 
-
-        return false;
+        //자릿 수 합으로 나누어 떨어지는가
+        return originX % sumOfDigit ==0;
     }
     public static void main(String[] args) {
+
+        HarshadSolution harshadSolution = new HarshadSolution();
+
+
 
     }
 
